@@ -2,7 +2,6 @@
   "name": "generator-emu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/ValeryIvanov/generator-emu/issues"
   },
-  "homepage": "https://github.com/ValeryIvanov/generator-emu#readme"
+  "homepage": "https://github.com/ValeryIvanov/generator-emu#readme",
+  "devDependencies": {
+    "yeoman-generator": "^0.23.3"
+  },
+  "files": [
+    "generators/app"
+  ],
+  "keywords": ["yeoman-generator"]
 }
